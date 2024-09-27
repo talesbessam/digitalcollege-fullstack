@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}

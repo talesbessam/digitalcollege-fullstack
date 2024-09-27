@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 20vw;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barraDePesquisa{
+    width: 30vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #eae7e7;
+    padding-left: 10px;
+}
+.barraDePesquisa::placeholder{
+    padding-left: 10px;
+    color: #a6a5a5;
+}
+
+.search{
+    width: 40vw;
+}
+
+#searchIcon{
+    margin-left: -2vw;
+    color: #a6a5a5;
+}
+
+.redirections{
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    width: 17vw;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+}
+
+.links button{
+    margin-left: 2vw;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 5px;
+    color: white;
+    background-color: #c92071;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a{
+    content: "";
+    text-decoration: none;
+    color: rgb(52, 51, 51);  
+    /* font-weight: bold; */
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #c92071;
+}
+
+#carrinho{
+    color: #c92071;
+    font-size: 20px;
+}
+
+#teste{
+    padding-left: 4.6vh;
+    width: 78vh;
+    justify-content: left;
+    display: flex;
+    justify-content: space-around;
+    font-style: bold;
+}
